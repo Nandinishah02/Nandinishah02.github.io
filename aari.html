@@ -1,13 +1,35 @@
 ---
 title: Aari Embroidery
 photos:
-- image: /uploads/aari-1.jpg
-  caption: Your caption here
-- image: /uploads/aari-2.jpg
-  caption: Your caption here
-# add all her Aari images here
+- image: /uploads/44.jpeg
+  caption: "44"
+- image: /uploads/45.jpeg
+  caption: "45"
+- image: /uploads/46.jpeg
+  caption: "46"
+- image: /uploads/47.jpeg
+  caption: "47"
+- image: /uploads/48.jpeg
+  caption: "48"
+- image: /uploads/49.jpeg
+  caption: "49"
+- image: /uploads/50.jpeg
+  caption: "50"
+- image: /uploads/51.jpeg
+  caption: "51"
+- image: /uploads/52.jpeg
+  caption: "52"
+- image: /uploads/53.jpeg
+  caption: "53"
+- image: /uploads/54.jpeg
+  caption: "54"
+- image: /uploads/55.jpeg
+  caption: "55"
 ---
-
+<div class="intro">
+  <h2>Aari Embroidery</h2>
+  <p>Gulbadan emerged from my experience of working closely with Aari artisans in Gujarat and observing the patience, rhythm, and care embedded within their process. Inspired by blooming flowers and softness within nature, the collection combines handcrafted embroidery with fluid silhouettes, reinterpreting traditional techniques through a contemporary lens while celebrating the human connection behind the craft.</p>
+</div>
 <ul class="gallery">
 {% for photo in page.photos %}
 <li style="background-image: url('{{ site.baseurl }}{{ photo.image }}')"><a title="{{ photo.caption }}" href="{{ site.baseurl }}{{ photo.image }}" data-id="#{{ photo.image | slugify }}" data-caption="{{ photo.caption }}"></a></li>
