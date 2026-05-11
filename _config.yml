@@ -1,22 +1,22 @@
 # ----
 # Site
 
-title: Threads of Protection
+title: Nandini Shah
 url: "https://nandinishah02.github.io/"
 baseurl:
 google_analytics_key:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Nandini Shah - MFA Portolio.
+description: Portolio.
 author:
   name:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Threads of Protection
+  name: Nandini Shah
   links:
-    - https://github.com/CloudCannon/aperture-jekyll-template
+    - https://www.instagram.com/s.nandiniii
 
 # -----
 # Build
